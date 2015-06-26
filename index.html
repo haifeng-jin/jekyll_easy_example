@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<p>The beginning of the index.</p>
+
+{% for post in site.posts %}
+<p>
+<a href="{{post.url}}">{{post.title}}</a>Posted on {{post.date | date_to_string}}
+</p>
+{% endfor %}
+
+<p>The end of the index.</p>
+

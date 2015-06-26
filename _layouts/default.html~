@@ -1,0 +1,11 @@
+---
+---
+<p>The header begins.</p>
+{% include snippet.ext %}
+<p>The header ends.</p>
+
+{{content}}
+
+<p>The footer begins.</p>
+{% include snippet.ext %}
+<p>The footer ends.</p>
